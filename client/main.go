@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	resp, err := http.Get("http://some_url_")
+	resp, err := http.Get("http://some_url")
 	if err != nil {
 		log.Fatalln(err)
 	}
